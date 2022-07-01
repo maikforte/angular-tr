@@ -1,0 +1,30 @@
+.employee-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    max-width: 200px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.name-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: #3486eb;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.item-wrapper {
+    padding: 15px;
+}
+
+.heading {
+    margin-right: 15px;
+}

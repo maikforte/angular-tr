@@ -1,0 +1,22 @@
+
+<div *ngIf="employee.isEmployeeShown" class="employee-wrapper">
+    <div class="name-header">
+        <span class="name">{{ employee.name }}</span>
+    </div>
+    <div class="item-wrapper">
+        <span class="heading">Gender:</span>
+        <span class="value">{{ employee.gender }}</span>
+    </div>
+    <div class="item-wrapper">
+        <span class="heading">Title:</span>
+        <span class="value">{{ employee.title }}</span>
+    </div>
+    <div class="item-wrapper">
+        <span class="heading">Tenure:</span>
+        <span class="value">{{ employee.tenure }}</span>
+    </div>
+    <div class="item-wrapper">
+        <span class="heading">Salary:</span>
+        <span class="value">{{ employee.salary }}</span>
+    </div>
+</div>
